@@ -24,3 +24,24 @@
 .file-tree div[role="group"] > .mat-tree-node {
   padding-left: 40px;
 }
+
+.file-tree-card {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 100px;
+  padding: 25px;
+}
+
+.selected-file {
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #f44336;
+  padding: 5px;
+  color: black;
+}
+
+.selected-file:hover {
+  background-color: #f8beba36;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.133);
+}

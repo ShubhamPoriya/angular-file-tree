@@ -67,7 +67,3 @@ button:hover {
   padding: 5px 5px;
   border-radius: 5px;
 }
-
-.tabs a:active {
-  background-color: #f4433672;
-}

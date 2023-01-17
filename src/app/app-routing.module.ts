@@ -9,7 +9,6 @@ const routes: Routes = [
   {
     path: 'files',
     component: FileTreeComponent,
-    children: [{ path: 'browse', component: ModalComponent }],
   },
   { path: 'upload', component: FileUploadComponent },
   { path: 'history', component: FileHistoryComponent },

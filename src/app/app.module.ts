@@ -16,7 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
 import { ModalComponent } from './modal/modal.component';
-import { MaterialModule } from './material/material.module';
+import { MatRadioModule } from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -38,7 +38,7 @@ import { MaterialModule } from './material/material.module';
     MatInputModule,
     MatDialogModule,
     MatTabsModule,
-    MaterialModule,
+    MatRadioModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

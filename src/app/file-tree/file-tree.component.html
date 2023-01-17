@@ -1,11 +1,15 @@
-<div>
+<div class="file-tree-card">
   <mat-tree
     [dataSource]="dataSource"
     [treeControl]="treeControl"
     class="file-tree"
   >
-    <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle>
-      {{ node.name }}
+    <mat-tree-node
+      *matTreeNodeDef="let node"
+      matTreeNodeToggle
+      (click)="onLeafNodeClick(node)"
+    >
+      <a class="selected-file" routerLink="/upload">{{ node.name }}</a>
     </mat-tree-node>
     <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild">
       <div class="mat-tree-node">
@@ -28,5 +32,4 @@
       </div>
     </mat-nested-tree-node>
   </mat-tree>
-  <router-outlet></router-outlet>
 </div>
