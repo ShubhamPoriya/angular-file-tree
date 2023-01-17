@@ -1,0 +1,73 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2,
+h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body,
+input[type="text"],
+button {
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+}
+button {
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.tabs {
+  display: flex;
+  box-sizing: border-box;
+  width: 1000px;
+  margin: auto;
+  flex-direction: row;
+  justify-content: left;
+  padding: 10px 15px;
+  background-color: #fde3e1;
+}
+
+.tabs a {
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  color: white;
+  background-color: #f44336;
+  margin-right: 10px;
+  font-size: 1.1rem;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.tabs a:active {
+  background-color: #f4433672;
+}

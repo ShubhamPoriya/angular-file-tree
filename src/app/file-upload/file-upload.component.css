@@ -1,0 +1,35 @@
+.file-upload-card {
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid #f4433687;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.upload label {
+  font-size: 1.2rem;
+}
+
+.upload input {
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 1.2rem;
+}
+
+.upload button {
+  font-size: 1.2rem;
+}
+
+.upload-button {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,14 @@
+<div>
+  <mat-tab-nav-panel #tabPanel></mat-tab-nav-panel>
+  <div class="file-upload-card">
+    <div class="upload">
+      <div>
+        <label>File:</label>
+        <input matInput placeholder="root/dir/dir/file.ext" ng-readonly="all" />
+      </div>
+      <button mat-raised-button color="warn">Browse</button>
+    </div>
+    <button mat-raised-button disabled [disableRipple]="false">Upload</button>
+    <mat-progress-bar mode="indeterminate" color="warn"></mat-progress-bar>
+  </div>
+</div>
